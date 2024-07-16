@@ -1,8 +1,8 @@
-## ChatGPT Fine-Tune Client
+# ChatGPT Fine-Tuning Client
 
 ChatGPT Fine-Tune Client is an open-source web application that allows users to interact with a fine-tuned version of the ChatGPT language model. The application is built with Next.js, Tailwind CSS, and Ant Design (antd).
 
-### Getting Started
+## Getting Started
 
 Follow these steps to run the project locally on your machine:
 
@@ -15,7 +15,7 @@ In the root of the project, find the .env.example file. Duplicate this file and 
 Open your terminal or command prompt, navigate to the project's root directory, and run the following command to install the required dependencies:
 
 ```sh
-npm install
+yarn
 ```
 
 3. **Run the Application**
@@ -23,7 +23,7 @@ npm install
 Once the dependencies are installed, start the development server by running the following command:
 
 ```sh
-npm run dev
+yarn dev
 ```
 
 The application will now be running locally at http://localhost:3000.
@@ -44,11 +44,3 @@ Once the sample is uploaded, click on the "Fine Tune" button to start the fine-t
 
 Check the progress by clicking on the "View" button. Once the `Message` shows "Job succeeded," the "Fine-Tuned Model" section will appear. Use this fine-tuned model for the completion API and integrate it into your own chatbot. Enjoy the enhanced capabilities!
 
-
-### License
-
-This project is licensed under the [MIT License](LICENSE).
-
-### Contributing
-
-Contributions to the ChatGPT Fine-Tune Client project are welcome. If you encounter any issues or have ideas for improvements, please feel free to submit pull requests.
